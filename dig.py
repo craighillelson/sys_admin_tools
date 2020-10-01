@@ -1,4 +1,4 @@
-"""Prompt user for a hostname to ping and a number of pings to send."""
+"""Prompt user for a hostname and run dig for that hostname."""
 
 from functions import (get_hostname,
                        os,
