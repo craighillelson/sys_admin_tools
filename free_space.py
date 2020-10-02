@@ -1,4 +1,4 @@
-"""Prompt user for a hostname to ping and a number of pings to send."""
+"""Get free space on mounted disks."""
 
 from functions import (os,
                        print_return)
