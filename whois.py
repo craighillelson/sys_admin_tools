@@ -1,4 +1,4 @@
-"""Prompt user for a hostname to ping and a number of pings to send."""
+"""Prompt user for a hostname and send a whois command for that hostname."""
 
 from functions import (get_name,
                        os,
