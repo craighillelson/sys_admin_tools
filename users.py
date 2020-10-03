@@ -1,4 +1,4 @@
-"""List files in the current directory."""
+"""Output users."""
 
 from functions import (os,
                        print_return)
