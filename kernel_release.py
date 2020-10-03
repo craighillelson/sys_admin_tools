@@ -1,4 +1,4 @@
-"""List files in the current directory."""
+"""Output the kernel and release."""
 
 from functions import (os,
                        platform,
