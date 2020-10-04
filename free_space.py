@@ -1,11 +1,7 @@
 """Get free space on mounted disks."""
 
-from functions import (os,
-                       print_return)
+import shutil
 
-print_return()
-cmd = "df -h"
-output = cmd + str("> free_space.txt")
-response = os.system(cmd)
-output_file = os.system(output)
-print("\n'free_space.txt' exported successfully\n")
+disk_space = shutil.disk_usage("/")
+free_space = disk_space.free / disk_space.total * 100
+print(f"\npercentage of free space on disk: {round(free_space, 2)}%\n")
