@@ -1,6 +1,6 @@
 """Provide user with a list of options."""
 
-from functions import pyip
+import pyinputplus as pyip
 
 options_map = {
     1: ["dig", "dig.py",],
@@ -17,7 +17,7 @@ options_map = {
     12: ["exit", "",],
 }
 
-num_options = len(options_map)
+NUM_OPTIONS = len(options_map)
 
 while True:
     print("\nplease select an option below.")
