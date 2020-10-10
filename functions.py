@@ -1,8 +1,5 @@
 """Functions."""
 
-import os
-import pyinputplus as pyip
-
 
 def get_hostname():
     """Prompt user for a hostname."""
