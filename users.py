@@ -1,7 +1,7 @@
 """Output users."""
 
-from functions import (os,
-                       print_return)
+import os
+from functions import print_return
 
 print_return()
 users = os.system("users")
