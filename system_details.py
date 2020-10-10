@@ -12,5 +12,5 @@ print(f"processor: {processor}")
 os.system(f"echo 'uptime:' $(uptime)")
 os.system(f"echo 'public ip address:' "
           f"$(dig +short myip.opendns.com @resolver1.opendns.com)")
-os.system(f"echo 'private ip address: '$(ifconfig | grep 'inet ' | "
-          f"grep -v 127.0.0.1 | cut -d\  -f2)")
+os.system(f"echo 'private ip address:' $(hostname -I)")
+print("\n")
