@@ -1,8 +1,6 @@
 """Output the kernel and release."""
 
-from functions import (os,
-                       platform,
-                       print_return)
+import platform
 
 kernel = platform.system()
 release = platform.release()
