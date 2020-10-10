@@ -1,6 +1,6 @@
-from functions import (os,
-                       platform,
-                       print_return)
+import os
+import platform
+from functions import print_return
 
 print("\nsystem details")
 specs = platform.uname()
