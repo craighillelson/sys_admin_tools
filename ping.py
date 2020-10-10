@@ -1,8 +1,8 @@
 """Prompt user for a hostname to ping and a number of pings to send."""
 
+import os
+import pyinputplus as pyip
 from functions import (get_hostname,
-                       os,
-                       pyip,
                        print_return)
 
 hostname = get_hostname()
