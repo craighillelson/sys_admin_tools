@@ -1,8 +1,8 @@
 """List files in the current directory."""
 
-from functions import (os,
-                       print_return)
+import os
+from functions import print_return
 
 print_return()
-response = os.system(f"ls -la")
+response = os.system("ls -la")
 print_return()
